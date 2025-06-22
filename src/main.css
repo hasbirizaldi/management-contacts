@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Poppins", "sans-serif";
+}
+.aktif {
+  transition: 0.5s ease-in-out;
+}
+.aktif.active {
+  color: rgb(255, 227, 155);
+}
+
+.mobile.aktif.active {
+  color: rgb(88, 60, 252);
+}
